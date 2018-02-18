@@ -1,0 +1,32 @@
+body  { 
+	margin:0;
+	padding:0;
+	color: #AAAAAA;
+	background-color: #FFFFFF;
+}
+
+h1  {
+	color: #313537;
+	text-align: justify;
+	font: bold 7vw Arial, Helvetica, sans-serif;
+}
+
+a:link {
+	color: #ee6360;
+	text-decoration:underline;
+}
+
+a:visited {
+	color: #313537;
+	text-decoration:none;
+}
+
+
+a:hover  {
+	color: #e2b263;
+}
+
+#content {
+	margin-top: 5%;
+	margin-left: 15%;
+}
