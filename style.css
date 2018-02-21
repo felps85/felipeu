@@ -1,7 +1,6 @@
 body  { 
 	margin:0;
 	padding:0;
-	color: #AAAAAA;
 	background-color: #FFFFFF;
 }
 
@@ -23,10 +22,12 @@ a:visited {
 
 
 a:hover  {
-	color: #e2b263;
+	color: #313537;
+	background-color: #e2b263;
 }
 
 #content {
-	margin-top: 5%;
-	margin-left: 15%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
 }
