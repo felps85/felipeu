@@ -1,33 +1,45 @@
 body  { 
+	--red: #ee6360;
+	--yellow: #e2b263;
+	--black: #313537;
 	margin:0;
 	padding:0;
 	background-color: #FFFFFF;
+
 }
 
 h1  {
-	color: #313537;
+	color: var(--black);
 	text-align: justify;
 	font: bold 7vw Arial, Helvetica, sans-serif;
 }
 
 a:link {
-	color: #ee6360;
+	color: var(--red);
 	text-decoration:underline;
 }
 
 a:visited {
-	color: #313537;
+	color: var(--black);
 	text-decoration:none;
 }
 
 
 a:hover  {
-	color: #313537;
-	background-color: #e2b263;
+	color: var(--black);
+	background-color: var(--yellow);
 }
 
 #content {
     display: flex;
     justify-content:center;
     align-items:center;
+}
+
+img { 
+    display: block;
+	position: fixed;
+	right: 1%;
+	bottom: 1%;
+	height: 5%;
 }
