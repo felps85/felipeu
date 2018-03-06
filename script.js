@@ -1,15 +1,12 @@
-window.onblur = function () { document.title = 'Where are you?'; }
+jQuery(document).ready(function( $ ){
 
-window.onfocus = function () { document.title = 'Welcome back'; }
+// Change page title on blur
+  $(window).blur(function() {
+  $("title").text("Miss You ❤");
+  });
 
-// $( document ).ready(function() {
-
-//   $(window).blur(function(e) {
-//       $(document).attr("title", "Hey, come back");
-//   });
-
-//   $(window).focus(function(e) {
-//       $(document).attr("title", "Welcome back!");
-//   });
-
-// });
+// Change page title back on focus
+  $(window).focus(function() {
+  $("title").text("Welcome back!");
+  });
+});
