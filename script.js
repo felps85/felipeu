@@ -1,11 +1,11 @@
 $( document ).ready(function() {
 
   $(window).blur(function(e) {
-      $("title").text("Hey, come back");
+      $(document).attr("title", "Hey, come back");
   });
 
   $(window).focus(function(e) {
-      $("title").text("Welcome back!");
+      $(document).attr("title", "Welcome back!");
   });
 
 });
