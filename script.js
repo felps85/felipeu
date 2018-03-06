@@ -1,11 +1,15 @@
-$( document ).ready(function() {
+window.onblur = function () { document.title = 'Where are you?'; }
 
-  $(window).blur(function(e) {
-      $(document).attr("title", "Hey, come back");
-  });
+window.onfocus = function () { document.title = 'Welcome back'; }
 
-  $(window).focus(function(e) {
-      $(document).attr("title", "Welcome back!");
-  });
+// $( document ).ready(function() {
 
-});
+//   $(window).blur(function(e) {
+//       $(document).attr("title", "Hey, come back");
+//   });
+
+//   $(window).focus(function(e) {
+//       $(document).attr("title", "Welcome back!");
+//   });
+
+// });
